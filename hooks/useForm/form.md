@@ -14,9 +14,9 @@
 
     <form onSubmit={handleSubmit}>
         <input
-        // this name must be to equal the value of sentences initial state (object)
+        // this name must be to equal the value of desclared in initial state (object)
             name="example"
-            //Receive form the value sentence in initial state from weight changes
+        //Receive the form value desclared in initial state for wait changes
             value={example}
             onChange={handleInputChange}
         />
